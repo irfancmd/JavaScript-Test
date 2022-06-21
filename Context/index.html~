@@ -1,0 +1,11 @@
+<html>
+
+  <head>
+    <title>Context Example</title>
+    <script src="Context.js"></script>
+  </head>
+
+  <body>
+    <button id="btn1">Click Me!</button>
+  </body>
+</html>

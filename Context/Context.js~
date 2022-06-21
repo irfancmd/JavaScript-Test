@@ -1,0 +1,10 @@
+// 'this' keyword refers to the current context. Its value can be
+// different based on different scenarios
+
+// In a global function, it's value will be the window object
+
+function globalFunc() {
+    console.log(this);
+}
+
+globalFunc();
