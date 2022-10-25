@@ -1,0 +1,13 @@
+#container{
+    /*
+Since the squares will be placed inside the container, the
+container's position has to be relative so that the absolutely positioed
+squares position themselves relative tho the container's co-ordinate
+   */
+    position: relative;
+}
+
+.square {
+    position: absolute;
+    cursor: pointer;
+}
