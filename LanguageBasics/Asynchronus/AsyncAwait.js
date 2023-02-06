@@ -35,7 +35,7 @@ async function foo() {
 
 // Example with then
 function thenExample() {
-    // In this case, both of the times will start immediately
+    // In this case, both of the timers will start immediately
     returnAfter2Sec("This takes 2 second to complete.")
                         .then(message => console.log(message));
 
